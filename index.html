@@ -1,35 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./projeto/Style.css">
-    <title>projeto css</title>
-    <link rel="preconnect" 
-    href="https://fonts.googleapis.com">
-    <link rel="preconnect" 
-    href="https://fonts.gstatic.com" 
-    crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" 
-    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<script src="./scripts.js"></script>
+    <title>conversor</title>
 </head>
 <body>
-    <div class="wrapper">
-    <section  class="container-left">
-            <h1>Easy shopping Via Mobile</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis similique dicta deleniti, in officia possimus ab, rerum quibusdam totam, et debitis repellendus? Voluptatum, tempora. Adipisci fugiat placeat ducimus fuga quisquam.</p>
-            <button>Get Started</button>
-    </section>
-    <section class="container-right">
-        <header>
-            <a>Home</a>
-            <a>Work</a>
-            <a>About</a>
-            <a>Contact</a>
-        </header>
-        <img alt="Gilr-Cellphoner" src="./img/Illustration-3-3.png">
-    </section>
+    <img class="logo"  src="./conversor de moeda.jpg" alt="logo-devclub-convert-money">
+    
+    <main>
+<label>
+                 converter <b>de</b>
+<select>
+                <option>R$ Real Brasileiro</option>
+</select>
+
+
+            </label>
+            <label>
+                    converter <b>para</b>
+<select>
+                    <option>US$ Dólar americano</option>
+                    <option> € euro </option>
+</select>
+   
+   
+   </label>
+            <label>
+                    valor
+                    <input placeholder="R$ 10.000,00">
+            </label>
+                    <button class="convert-botao">converter</button>
+            <section>
+    <div class="currency-box">
+                        <img src="./brasil 2.png" alt="logo-moeda-a-converter">
+                        <p class="currency">Real</p>
+                        <p class="currency-value">R$ 0,00</p>
     </div>
+                        <img class="arrow-img" src="./arrow.png" alt="arrow">
+    <div class="currency-box">                                 
+                        <img src="./dola.png" alt="logo-moeda-a-convertida">
+                        <p class="currency">Dólar</p>
+                        <p class="currency-value">US$ 0,00</p>
+    </div>
+    </div>              
+
+            </section>
+    </main>
 </body>
 </html>
